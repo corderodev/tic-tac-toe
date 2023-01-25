@@ -10,6 +10,21 @@ Two-player game. Players alternate turns and the first to mark three squares in 
 - React
 - TailwindCSS
 
+## What I learned/practice?
+- Using the State Hook.
+- Using conditional styles with Tailwind in components.
+- How to use a Spread.
+- How to update the game board when the user marks a cell.
+- How not to re-render an already marked cell using a conditional.
+- How to reset the game and score with setState.
+- How to show a scoreboard using State.
+- How to check for a winner using "for" and conditionals.
+- How to change turns with setState.
+- How to change the message to notify a winner or a draw.
+- How to show all squares for board game with map and State.
+- How to show all the squares of the game board with map and State.
+- Deploy with vite and gh-pages.
+
 ## Run Locally
 
 Clone the project
