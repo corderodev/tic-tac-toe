@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "gh-pages": "gh-pages -d build"
+    "gh-deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
