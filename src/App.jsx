@@ -10,6 +10,7 @@ function App() {
     O: '○'
   };
 
+  // index of the squares
   const WINNER_OPTIONS = [
     [0, 1, 2],
     [3, 4, 5],
@@ -56,7 +57,8 @@ function App() {
     return null;
   };
 
-  const updateBoard = (index, countPlays) => {
+  const updateBoard = (index) => {
+    // Squares cannot be marked if they have already been marked or if there is a winner
     if (board[index] || winner) return;
 
     const newBoard = [...board];
@@ -90,7 +92,6 @@ function App() {
   return (
     <>
       <Header />
-      {/* arreglar el height minimo para que no choque con el header */}
       <main className="h-full w-full pt-20 pb-14 grid lg:grid-flow-col lg:max-w-7xl lg:min-h-screen lg:m-auto lg:pt-40 lg:pb-40 lg:content-center">
         <TurnsBoard turn={turn} TURNS={TURNS} restart={restart} mssg={mssg} />
         <section className="max-w-xl h-fit m-auto grid grid-cols-3 gap-4 lg:gap-10">
