@@ -21,8 +21,7 @@ Two-player game. Players alternate turns and the first to mark three squares in 
 - How to check for a winner using "for" and conditionals.
 - How to change turns with setState.
 - How to change the message to notify a winner or a draw.
-- How to show all squares for board game with map and State.
-- How to show all the squares of the game board with map and State.
+- Show all the squares of the game board with map and State.
 - Deploy with vite and gh-pages.
 
 ## Run Locally
