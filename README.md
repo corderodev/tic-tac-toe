@@ -2,7 +2,7 @@
 
 Two-player game. Players alternate turns and the first to mark three squares in a row wins.
 
-**View deploy:** [tic-tac-toe](https://dnlambb.github.io/tic-tac-toe/)
+**View deploy:** [tic-tac-toe](https://corderodev.github.io/tic-tac-toe/)
 
 ## Tech Stack
 
@@ -29,7 +29,7 @@ Two-player game. Players alternate turns and the first to mark three squares in 
 Clone the project
 
 ```bash
-  git clone https://github.com/dnlambb/tic-tac-toe.git
+  git clone https://github.com/corderodev/tic-tac-toe.git
 ```
 
 Go to the project directory
